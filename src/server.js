@@ -1,3 +1,6 @@
 const app = require('./');
 
-app.listen(3333);
+const port = 3000;
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`); 
+});
